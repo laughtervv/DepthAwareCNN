@@ -3,7 +3,7 @@
 ### Installation
 Install <a href="http://pytorch.org/">Pytorch</a>, <a href="https://github.com/Knio/dominate">dominate</a>, <a href="https://github.com/lanpa/tensorboard-pytorch">TensorBoardX</a>.
 
-The depth-aware convolution and depth-aware average pooling operations are under folder `models/ops`, to build them, simply type `sh make.sh`.
+The depth-aware convolution and depth-aware average pooling operations are under folder `models/ops`, to build them, simply use `sh make.sh` to compile.
 
 ### Training
 
@@ -32,13 +32,13 @@ python train.py \
 ```
 
 ### Citation
-
-	@article{qi2017pointnetplusplus,
-	  title={PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space},
-	  author={Qi, Charles R and Yi, Li and Su, Hao and Guibas, Leonidas J},
-	  journal={arXiv preprint arXiv:1706.02413},
-	  year={2017}
-	}
+If you find this work useful, please consider citing:
+@article{wang2018depthconv,
+	title={Depth-aware CNN for RGB-D Segmentation},
+	author={Wang, Weiyue and Neumann, Ulrich},
+	journal={arXiv preprint arXiv:1803.06791},
+	year={2018}
+}
 
 ### Acknowledgemets
 
