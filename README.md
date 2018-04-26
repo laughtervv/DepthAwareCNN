@@ -43,4 +43,4 @@ If you find this work useful, please consider citing:
 
 ### Acknowledgemets
 
-The visulization code are borrowed from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+The visulization code is borrowed from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
