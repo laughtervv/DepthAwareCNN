@@ -14,21 +14,19 @@ python train.py \
 --dataset_mode nyuv2 \
 --flip --scale --crop --colorjitter \
 --depthconv \
---list ./lists/train.lst \
---vallist ./lists/val.lst
+--list dataset/lists/nyuv2/train.lst \
+--vallist dataset/lists/nyuv2/val.lst
 ```
 
 ### Testing 
 
 ```bash
 #!./scripts/test.sh
-python train.py \
+python test.py \
 --name nyuv2_VGGdeeplab_depthconv \
 --dataset_mode nyuv2 \
---flip --scale --crop --colorjitter \
---depthconv \
---list ./lists/train.lst \
---vallist ./lists/val.lst
+--list dataset/lists/nyuv2/test.lst \
+--how_many 0
 ```
 
 ### Citation
