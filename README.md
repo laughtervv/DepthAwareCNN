@@ -26,6 +26,7 @@ python test.py \
 --name nyuv2_VGGdeeplab_depthconv \
 --dataset_mode nyuv2 \
 --list dataset/lists/nyuv2/test.lst \
+--depthconv \
 --how_many 0
 ```
 
