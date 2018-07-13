@@ -33,10 +33,10 @@ python test.py \
 ### Citation
 If you find this work useful, please consider citing:
 
-	@article{wang2018depthconv,
+	@inproceedings{wang2018depthconv,
 		title={Depth-aware CNN for RGB-D Segmentation},
 		author={Wang, Weiyue and Neumann, Ulrich},
-		journal={arXiv preprint arXiv:1803.06791},
+		booktitle={ECCV},
 		year={2018}
 	}
 
