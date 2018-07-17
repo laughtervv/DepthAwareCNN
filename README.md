@@ -33,13 +33,14 @@ python test.py \
 ### Citation
 If you find this work useful, please consider citing:
 
-	@inproceedings{wang2018depthconv,
-		title={Depth-aware CNN for RGB-D Segmentation},
-		author={Wang, Weiyue and Neumann, Ulrich},
-		booktitle={ECCV},
-		year={2018}
-	}
+        @inproceedings{wang2018depthconv,
+            title={Depth-aware CNN for RGB-D Segmentation},
+            author={Wang, Weiyue and Neumann, Ulrich},
+            booktitle={ECCV},
+            year={2018}
+        }
 
+    
 ### Acknowledgemets
 
 The visulization code is borrowed from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
