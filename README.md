@@ -17,7 +17,7 @@ python train.py \
 --list dataset/lists/nyuv2/train.lst \
 --vallist dataset/lists/nyuv2/val.lst
 ```
-
+Pretrained Model can be found <a href="https://drive.google.com/file/d/1Umr1oG5oBiSePkg4uCe9QrWpZ2rzF7cU/view?usp=sharing">here</a>.
 ### Testing 
 
 ```bash
